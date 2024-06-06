@@ -29,6 +29,7 @@ public class Circulo {
         return radio;
     }
 
+    /**Este metodo indica el radio de la clase circulo */
     public void setRadio(double radio) {
         this.radio = radio;
     }
