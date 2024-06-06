@@ -6,7 +6,7 @@ public class Circulo {
         this.radio = radio;
     }
 
-    /**Esta clase esta descontinuada, se debe usar en su lugar calcularArea()*/
+    /**Esta clase esta descontinuada, se debe de usar en su lugar calcularArea()*/
      public double calculoArea() {
         return Math.PI * Math.pow(radio, 2);
     }
