@@ -24,6 +24,7 @@ public class Circulo {
         return 2 * Math.PI * radio;
     }
 
+    /**Este metodo devuelve el radio de la clase circulo */
     public double getRadio() {
         return radio;
     }
