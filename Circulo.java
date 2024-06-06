@@ -11,6 +11,7 @@ public class Circulo {
         return Math.PI * Math.pow(radio, 2);
     }
 
+    /**Este metodo calcula el area del circulo y agrega un if que en caso de que el radio sea menor que 0 lanzara un mensaje de aviso  */
     public double calcularArea() {
         if (radio < 0) {
             throw new IllegalArgumentException("El radio no puede ser negativo");
