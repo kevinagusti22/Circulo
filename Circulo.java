@@ -19,6 +19,7 @@ public class Circulo {
         return Math.PI * Math.pow(radio, 2);
     }
 
+    /**Este metodo devuelve el calculo de la circunferencia de la clase circulo con un metodo matematico */
     public double calcularCircunferencia() {
         return 2 * Math.PI * radio;
     }
