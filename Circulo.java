@@ -1,12 +1,12 @@
 public class Circulo {
     private double radio;
     
-    /**Este metodo indica el atributo radio de la clase coche*/
+    /**Este metodo indica el atributo radio de la clase circulo*/
     public Circulo(double radio) {
         this.radio = radio;
     }
 
-    /*Esta clase está descontinuada, se debe usar en su lugar calcularArea()*/
+    /**Esta clase esta descontinuada, se debe usar en su lugar calcularArea()*/
      public double calculoArea() {
         return Math.PI * Math.pow(radio, 2);
     }
