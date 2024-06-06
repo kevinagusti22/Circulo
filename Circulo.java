@@ -1,6 +1,7 @@
 public class Circulo {
     private double radio;
-
+    
+    /**Este metodo indica el atributo radio de la clase coche*/
     public Circulo(double radio) {
         this.radio = radio;
     }
